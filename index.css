@@ -1,0 +1,22 @@
+body{
+    background-color: #000000;
+}
+.box{
+    margin-left: 450px;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: grey;
+}
+.button{
+    background-color: red;
+}
+#input{
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+}
+::placeholder{
+    color: #000000;
+}

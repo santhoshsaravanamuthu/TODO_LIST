@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="box">
+        <center>
+            <br>
+            <h1>TODO LIST</h1>
+            <input id="input" placeholder="ADD TASK TO COMPLETE">
+            <button onclick="addcontent()" style="background-color: lawngreen;">Add</button>
+            <br>
+            <h1>TASK TO COMPLETE</h1>
+            <ul id="content" style="list-style: none;">
+                <li >
+                    Drink Water
+                    <button onclick="deleteItem(event)" class="button">Completed</button>
+                </li>
+            </ul>
+        </center>
+    </div>
+    
+    
+</body>
+<script src="index.js"></script>
+</html>
